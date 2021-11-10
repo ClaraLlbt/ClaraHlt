@@ -1,0 +1,22 @@
+{
+  "name": "clarahlt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clarahlt/ClaraHlt.git"
+  },
+  "author": "Clara Haultcoeur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clarahlt/ClaraHlt/issues"
+  },
+  "homepage": "https://github.com/Clarahlt/ClaraHlt#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
