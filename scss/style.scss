@@ -1,0 +1,95 @@
+body{
+    margin: 20px 15px 15px 15px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container{
+    .animation_name{
+        font-size: 100px;
+        justify-content: center;
+        .ico{
+            font-size: 150px;
+            position: relative;
+        }
+        #letters{
+            position: relative;
+        }
+        .nameC{
+            right: -45%;
+            opacity: 0;
+        }
+        .nameL{
+            right: -37%;
+            opacity: 0;
+        }
+        .nameA{
+            right: -29%;
+            opacity: 0;
+        }
+        .nameR{
+            right: -21%;
+            opacity: 0;
+        }
+        .nameA2{
+            right: -13%;
+            opacity: 0;
+        }
+        .lastName{
+            opacity: 0;
+        }
+
+}
+}
+
+.animation_name:hover > .nameC,
+.animation_name:hover > .nameL,
+.animation_name:hover > .nameA,
+.animation_name:hover > .nameR,
+.animation_name:hover > .nameA2{
+    animation: comeFromRight 1500ms forwards;
+}
+
+.animation_name:hover > .ico{
+    animation: reducePoint 1000ms forwards;
+}
+
+.animation_name:hover > .lastName{
+    animation: apparitionLname 5000ms 1s forwards;
+}
+
+@keyframes comeFromRight {
+    0%{
+        
+    }
+    100%{
+        opacity: 1;
+        right: 0;
+    }
+    
+}
+
+@keyframes reducePoint {
+    0%{
+        font-size: 150px;
+    }
+    50%{
+        top: 10px;
+    }
+    100%{
+        top: 20px;
+        font-size: 70px;
+    }
+
+}
+
+@keyframes apparitionLname {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 1;
+    }
+}
