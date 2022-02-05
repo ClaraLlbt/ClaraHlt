@@ -48,6 +48,24 @@ body {
   opacity: 0;
 }
 
+.container .container-fluid #intro #cvTitle {
+  text-align: center;
+}
+
+.container .container-fluid #cvSkills #education {
+  background: #212529;
+  color: #F8F9FA;
+}
+
+.container .container-fluid #cvSkills #education .eductionPeriod {
+  background: #3A3A3A;
+}
+
+.container .container-fluid #cvSkills #skills {
+  background: #F8F9FA;
+  color: #212529;
+}
+
 .animation_name:hover > .nameC,
 .animation_name:hover > .nameL,
 .animation_name:hover > .nameA,
@@ -65,10 +83,6 @@ body {
 .animation_name:hover > .lastName {
   -webkit-animation: apparitionLname 5000ms 1s forwards;
           animation: apparitionLname 5000ms 1s forwards;
-}
-
-#cvTitle {
-  text-align: center;
 }
 
 @-webkit-keyframes comeFromRight {
