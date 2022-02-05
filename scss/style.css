@@ -67,6 +67,10 @@ body {
           animation: apparitionLname 5000ms 1s forwards;
 }
 
+#cvTitle {
+  text-align: center;
+}
+
 @-webkit-keyframes comeFromRight {
   0% {
   }
