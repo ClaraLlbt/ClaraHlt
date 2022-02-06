@@ -65,14 +65,32 @@ body{
                 }
                 p{
                     font-size: 12px;
-                    padding: 20px;
+                    padding: 15px;
                     margin: 5px;
+                }
+                .ifValidate{
+                    text-align: center;
                 }
             }
         }
         #skills{
             background: #F8F9FA;
             color: #212529;
+            .content-details{
+                .icons{
+                    font-size: 30px;
+                    position: relative;
+                    top: 36px;
+                }
+                h3{
+                    margin: auto 75px;
+                    font-size: 25px;
+                }
+                p{
+                    margin: 50px 75px;
+                    font-size: 20px;
+                }
+            }
         }
     
     }

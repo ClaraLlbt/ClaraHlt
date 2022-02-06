@@ -79,13 +79,33 @@ body {
 
 .body-container #cvSkills #education .eductionPeriod p {
   font-size: 12px;
-  padding: 20px;
+  padding: 15px;
   margin: 5px;
+}
+
+.body-container #cvSkills #education .eductionPeriod .ifValidate {
+  text-align: center;
 }
 
 .body-container #cvSkills #skills {
   background: #F8F9FA;
   color: #212529;
+}
+
+.body-container #cvSkills #skills .content-details .icons {
+  font-size: 30px;
+  position: relative;
+  top: 36px;
+}
+
+.body-container #cvSkills #skills .content-details h3 {
+  margin: auto 75px;
+  font-size: 25px;
+}
+
+.body-container #cvSkills #skills .content-details p {
+  margin: 50px 75px;
+  font-size: 20px;
 }
 
 .body-container #jobsGroup h2 {
