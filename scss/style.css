@@ -1,69 +1,159 @@
 body {
-  margin: 20px 15px 15px 15px;
   font-family: 'Source Code Pro', monospace;
 }
 
-.container .animation_name {
+.header-container .animation_name {
   font-size: 100px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.container .animation_name .ico {
+.header-container .animation_name .ico {
   font-size: 150px;
   position: relative;
 }
 
-.container .animation_name #letters {
+.header-container .animation_name #letters {
   position: relative;
 }
 
-.container .animation_name .nameC {
+.header-container .animation_name .nameC {
   right: -45%;
   opacity: 0;
 }
 
-.container .animation_name .nameL {
+.header-container .animation_name .nameL {
   right: -37%;
   opacity: 0;
 }
 
-.container .animation_name .nameA {
+.header-container .animation_name .nameA {
   right: -29%;
   opacity: 0;
 }
 
-.container .animation_name .nameR {
+.header-container .animation_name .nameR {
   right: -21%;
   opacity: 0;
 }
 
-.container .animation_name .nameA2 {
+.header-container .animation_name .nameA2 {
   right: -13%;
   opacity: 0;
 }
 
-.container .animation_name .lastName {
+.header-container .animation_name .lastName {
   opacity: 0;
 }
 
-.container .container-fluid #intro #cvTitle {
+.header-container #intro #cvTitle {
   text-align: center;
 }
 
-.container .container-fluid #cvSkills #education {
+.body-container {
+  margin: 50px auto;
+}
+
+.body-container #cvSkills #education, .body-container #cvSkills #skills {
+  border: white solid 20px;
+}
+
+.body-container #cvSkills #education {
   background: #212529;
   color: #F8F9FA;
 }
 
-.container .container-fluid #cvSkills #education .eductionPeriod {
+.body-container #cvSkills #education .eductionPeriod {
   background: #3A3A3A;
 }
 
-.container .container-fluid #cvSkills #skills {
+.body-container #cvSkills #education .eductionPeriod h3 {
+  text-align: center;
+}
+
+.body-container #cvSkills #education .eductionPeriod h4 {
+  font-size: 13px;
+  text-align: center;
+}
+
+.body-container #cvSkills #education .eductionPeriod p {
+  font-size: 12px;
+  padding: 20px;
+  margin: 5px;
+}
+
+.body-container #cvSkills #skills {
   background: #F8F9FA;
   color: #212529;
+}
+
+.body-container #jobsGroup h2 {
+  margin: 15px;
+}
+
+.body-container #jobsGroup div.card {
+  color: #F8F9FA;
+}
+
+.body-container #jobsGroup div.card .card-header {
+  background: #212529;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-container #jobsGroup div.card .card-header p {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
+
+.body-container #jobsGroup div.card .card-body, .body-container #jobsGroup div.card .card-footer {
+  background: #3A3A3A;
+}
+
+.body-container #jobsGroup div.card .card-text {
+  background: #4b4b4b;
+  font-size: 12px;
+  padding: 15px;
+}
+
+.body-container #jobsGroup div.card .card-footer {
+  padding: 10px;
+  text-align: center;
+}
+
+.body-container #infoContact {
+  margin-top: 50px;
+}
+
+.body-container #infoContact #contactMe .num, .body-container #infoContact #contactMe .location, .body-container #infoContact #contactMe .email {
+  margin: 10px auto;
+}
+
+.body-container #infoContact #contactMe .num {
+  background: #e8e5da;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.body-container #infoContact #contactMe .location {
+  background: #9eb7e5;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.body-container #infoContact #contactMe .email {
+  background: #9eb7e5;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.footer-container {
+  background-color: #212529;
+  color: white;
 }
 
 .animation_name:hover > .nameC,
