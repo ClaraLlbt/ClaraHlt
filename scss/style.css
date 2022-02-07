@@ -104,7 +104,7 @@ body {
 }
 
 .body-container #cvSkills #skills .content-details p {
-  margin: 50px 75px;
+  margin: 34px 75px;
   font-size: 20px;
 }
 
@@ -176,23 +176,33 @@ body {
   color: white;
 }
 
-.animation_name:hover > .nameC,
-.animation_name:hover > .nameL,
-.animation_name:hover > .nameA,
-.animation_name:hover > .nameR,
-.animation_name:hover > .nameA2 {
+.footer-container #footerLinks .socialNetwork a {
+  font-size: 30px;
+}
+
+.animation_name > .nameC,
+.animation_name > .nameL,
+.animation_name > .nameA,
+.animation_name > .nameR,
+.animation_name > .nameA2 {
   -webkit-animation: comeFromRight 1500ms forwards;
           animation: comeFromRight 1500ms forwards;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
 }
 
-.animation_name:hover > .ico {
+.animation_name > .ico {
   -webkit-animation: reducePoint 1000ms forwards;
           animation: reducePoint 1000ms forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
-.animation_name:hover > .lastName {
-  -webkit-animation: apparitionLname 5000ms 1s forwards;
-          animation: apparitionLname 5000ms 1s forwards;
+.animation_name > .lastName {
+  -webkit-animation: apparitionLname 5000ms forwards;
+          animation: apparitionLname 5000ms forwards;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
 }
 
 @-webkit-keyframes comeFromRight {

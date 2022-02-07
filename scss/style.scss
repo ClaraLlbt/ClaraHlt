@@ -87,7 +87,7 @@ body{
                     font-size: 25px;
                 }
                 p{
-                    margin: 50px 75px;
+                    margin: 34px 75px;
                     font-size: 20px;
                 }
             }
@@ -154,24 +154,34 @@ body{
 .footer-container{
     background-color: #212529;
     color: white;
+    #footerLinks{
+        .socialNetwork{
+            a{
+                font-size: 30px;
+            }
+        }
+    }
 }
 
 
 
-.animation_name:hover > .nameC,
-.animation_name:hover > .nameL,
-.animation_name:hover > .nameA,
-.animation_name:hover > .nameR,
-.animation_name:hover > .nameA2{
+.animation_name > .nameC,
+.animation_name > .nameL,
+.animation_name > .nameA,
+.animation_name > .nameR,
+.animation_name > .nameA2{
     animation: comeFromRight 1500ms forwards;
+    animation-delay: 4s;
 }
 
-.animation_name:hover > .ico{
+.animation_name > .ico{
     animation: reducePoint 1000ms forwards;
+    animation-delay: 3s;
 }
 
-.animation_name:hover > .lastName{
-    animation: apparitionLname 5000ms 1s forwards;
+.animation_name > .lastName{
+    animation: apparitionLname 5000ms forwards;
+    animation-delay: 3s;
 }
 
 
