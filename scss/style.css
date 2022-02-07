@@ -150,25 +150,38 @@ body {
 }
 
 .body-container #infoContact #contactMe .num, .body-container #infoContact #contactMe .location, .body-container #infoContact #contactMe .email {
-  margin: 10px auto;
+  margin: 13px auto;
+  font-size: larger;
+}
+
+.body-container #infoContact #contactMe .num i, .body-container #infoContact #contactMe .location i, .body-container #infoContact #contactMe .email i {
+  position: relative;
+  left: -125px;
+  top: 15px;
+  font-size: 30px;
+}
+
+.body-container #infoContact #contactMe .num p, .body-container #infoContact #contactMe .location p, .body-container #infoContact #contactMe .email p {
+  position: relative;
+  bottom: 15px;
 }
 
 .body-container #infoContact #contactMe .num {
   background: #e8e5da;
   border-radius: 10px;
-  height: 60px;
+  height: 61px;
 }
 
 .body-container #infoContact #contactMe .location {
   background: #9eb7e5;
   border-radius: 10px;
-  height: 60px;
+  height: 61px;
 }
 
 .body-container #infoContact #contactMe .email {
   background: #9eb7e5;
   border-radius: 10px;
-  height: 60px;
+  height: 61px;
 }
 
 .footer-container {

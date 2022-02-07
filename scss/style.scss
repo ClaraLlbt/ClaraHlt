@@ -130,22 +130,33 @@ body{
         margin-top: 50px;
         #contactMe{
             .num, .location, .email{
-                margin: 10px auto;
+                margin: 13px auto;
+                font-size: larger;
+                i{
+                    position: relative;
+                    left: -125px;
+                    top: 15px;
+                    font-size: 30px;
+                }
+                p{
+                    position: relative;
+                    bottom: 15px;
+                }
             }
             .num{
                 background: #e8e5da;
                 border-radius: 10px;
-                height: 60px;
+                height: 61px;
             }
             .location{
                 background: #9eb7e5;
                 border-radius: 10px;
-                height: 60px;
+                height: 61px;
             }
             .email{
                 background: #9eb7e5;
                 border-radius: 10px;
-                height: 60px;
+                height: 61px;
             }
             }
         }
