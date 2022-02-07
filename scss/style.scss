@@ -89,6 +89,7 @@ body{
                 p{
                     margin: 34px 75px;
                     font-size: 20px;
+                    word-wrap: break-word;
                 }
             }
         }
@@ -161,6 +162,9 @@ body{
             }
         }
 }
+#iconChibi{
+    background: url('/images/téléchargement.png');
+    }
 
 .footer-container{
     background-color: #212529;
@@ -182,17 +186,17 @@ body{
 .animation_name > .nameR,
 .animation_name > .nameA2{
     animation: comeFromRight 1500ms forwards;
-    animation-delay: 4s;
+    animation-delay: 2s;
 }
 
 .animation_name > .ico{
     animation: reducePoint 1000ms forwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 
 .animation_name > .lastName{
     animation: apparitionLname 5000ms forwards;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 
 
@@ -231,4 +235,13 @@ body{
     100%{
         opacity: 1;
     }
+}
+
+
+@media all and (min-width: 320px) and (max-width: 667px){
+.header-container{
+    .animation_name{
+        display: none;
+    }
+}
 }
