@@ -151,8 +151,20 @@ body {
   margin-top: 50px;
 }
 
+.body-container #infoContact h2 {
+  margin: 0 20px;
+}
+
+.body-container #infoContact #contactMe .presentation {
+  width: 20%;
+}
+
+.body-container #infoContact #contactMe .presentation p {
+  margin: 30px;
+}
+
 .body-container #infoContact #contactMe .num, .body-container #infoContact #contactMe .location, .body-container #infoContact #contactMe .email {
-  margin: 13px auto;
+  margin: 13px 9px;
   font-size: larger;
 }
 
@@ -300,8 +312,8 @@ body {
   .header-container .animation_name {
     display: none;
   }
-  .presentation p {
-    display: block;
+  .body-container #infoContact #contactMe .presentation {
+    width: 100%;
   }
   #icon-chibi {
     display: none;

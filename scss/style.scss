@@ -130,9 +130,18 @@ body{
 
     #infoContact{
         margin-top: 50px;
+        h2{
+            margin: 0 20px;
+        }
         #contactMe{
+            .presentation{
+                width: 20%;
+                p{
+                    margin: 30px;
+                }
+            }
             .num, .location, .email{
-                margin: 13px auto;
+                margin: 13px 9px;
                 font-size: larger;
                 i{
                     position: relative;
@@ -251,12 +260,15 @@ body{
     }
 }
 
-        .presentation{
-            p{
-                display: block;
+.body-container{
+    #infoContact{
+        #contactMe{
+            .presentation{
+                width: 100%;
             }
         }
-    
+    }
+}
 
 #icon-chibi{
     display: none;
