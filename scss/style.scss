@@ -67,7 +67,7 @@ body{
                     font-size: 12px;
                     padding: 15px;
                     margin: 5px;
-                    word-wrap: break-word;
+                    word-wrap: break-word ;
                 }
                 .ifValidate{
                     text-align: center;
@@ -88,7 +88,7 @@ body{
                     font-size: 25px;
                 }
                 p{
-                    margin: 34px 75px;
+                    margin: 27px 75px;
                     font-size: 20px;
                     word-wrap: break-word;
                 }
@@ -163,10 +163,15 @@ body{
             }
         }
 }
-#iconChibi{
-    background: url('/images/téléchargement.png');
+#icon-chibi{
+    img{
+        position: absolute;
+        width: 50%;
+        left: 0;
+        right: 0;
+        top: -70px;
     }
-
+}
 .footer-container{
     background-color: #212529;
     color: white;
@@ -244,5 +249,16 @@ body{
     .animation_name{
         display: none;
     }
+}
+
+        .presentation{
+            p{
+                display: block;
+            }
+        }
+    
+
+#icon-chibi{
+    display: none;
 }
 }
