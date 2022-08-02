@@ -55,7 +55,8 @@ body {
 }
 
 .header-container #intro .cvIntro p {
-  font-size: large;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .body-container {
@@ -212,6 +213,8 @@ body {
 
 .body-container #infoContact #contactMe .presentation p {
   margin: 30px;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .body-container #infoContact #contactMe .num, .body-container #infoContact #contactMe .location, .body-container #infoContact #contactMe .email {
@@ -229,6 +232,7 @@ body {
 .body-container #infoContact #contactMe .num p, .body-container #infoContact #contactMe .location p, .body-container #infoContact #contactMe .email p {
   position: relative;
   bottom: 15px;
+  font-weight: bold;
 }
 
 .body-container #infoContact #contactMe .num {

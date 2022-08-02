@@ -48,7 +48,8 @@ body{
     }
     .cvIntro{
         p{
-        font-size: large;
+            font-size: 15px;
+            font-weight: bold;
         }
     }
 }
@@ -190,6 +191,8 @@ body{
                 width: 20%;
                 p{
                     margin: 30px;
+                    font-weight: bold;
+                    font-size: 15px;
                 }
             }
             .num, .location, .email{
@@ -204,6 +207,7 @@ body{
                 p{
                     position: relative;
                     bottom: 15px;
+                    font-weight: bold;
                 }
             }
             .num{
